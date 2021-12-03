@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	color: white;
+	padding: 12px;
+	background:black;
+}
+
+/* Ini digunakan untuk membuat header*/
+.header {
+	padding: 10px;
+	text-align: center;
+	background: white;
+}
+
+.header h3 {
+	color: black;
+}
+
+/* style the top navigation bar*/
+.link {
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+/* style the topnav link*/
+.link a {
+	float: right;
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+/* change color on hover*/
+.link a:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* left column */
+.leftcolumn {
+	float: left;
+	width: 100%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+	content: ;
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 4px 0;
+	text-align: center ;
+	background:white ;
+	margin-top: 0px ;
+}
+
+.footer h2{
+	color: black;
+}
+
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {
+		width: 100px;
+		padding: 0;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+	<img src="logo hitam.png" width="400" height="200">
+	<h3>Welcome to Aquascape Lawang Area</h3>
+</div>
+
+<div class="link">
+	<a href="UTS WEBPAGE MASRURHO.html">Home</a>
+	<a href="About.html">About</a>
+	<a href="contact.html">Contact</a>
+</div>
+
+<div class="row">
+	<div class="center">
+		
+		<h2><center>MENJUAL KEBUTUHAN AQUASCAPE</center></h2>
+		<h5><center>Owner -Mazz Bee-</h5></center>
+		<p><center>Aquascape Pertama di Daerah Lawang</p></center>
+		<h2><center>GALLERY</center></h2>
+		<center><img src="1.jpg" width="400" height="400">&emsp;<img src="5.jpg" width="400"height="400">&emsp;<img src="6.jpg" width="400" height="400"></center>
+		<br>
+		<center><img src="2.jpg" width="400" height="400">&emsp;<img src="7.jpg" width="400"height="400">&emsp;<img src="10.jpg" width="400" height="400"></center>
+		<br>
+		<center><img src="11.jpg" width="400" height="400">&emsp;<img src="12.jpg" width="400"height="400">&emsp;<img src="14.jpg" width="400" height="400"></center>
+
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<h2>Copyright © 2021 Masrurho Wahyudi</h2>
+</div>
+
+</body>
+</html>
